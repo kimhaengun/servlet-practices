@@ -37,7 +37,7 @@
 	<img alt="" src="assets/images/loo.jpg"/>
 	</br>
 	<a href="fom.jsp">폼으로 가보자</a>
-	<a href="/helloweb/hello.jsp">안녕</a>
+	<a href="/helloweb/hello.jsp?name=kim&email=kim@naver.com">안녕</a>
 	<p>안녕 나는 p테그야 <br/>안녕 나는 p테그야</p>
 </body>
 </html>

@@ -35,6 +35,10 @@
 		먹기<input type="checkbox" name="hobby" value="eat"/>
 		<br/><br/>
 		
+		자기소개 : 
+		<textarea name="profile"></textarea>
+		
+		<br/><br/>
 		<input type="submit" value="회원가입" style="background: blue; color: white; height: 80px; width: 80px; font-size: 18px; border-radius: 50%"/>
 		
 	</form>
