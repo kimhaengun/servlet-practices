@@ -21,6 +21,7 @@ public class EmaillistController extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		
 		String action = request.getParameter("a");
+		
 		if("form".equals(action)) {
 			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/form.jsp");
 			rd.forward(request, response);			
