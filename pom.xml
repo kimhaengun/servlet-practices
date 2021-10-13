@@ -74,5 +74,6 @@
 		<module>emaillist02</module>
 		<module>guestBook02</module>
 		<module>guestbook02</module>
+		<module>jstlel</module>
 	</modules>
 </project>
