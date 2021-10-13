@@ -17,23 +17,23 @@
 	</c:if>
 	
 	<c:choose>
-		<c:when test="">
-		
+		<c:when test='${param.c == "red" }'>
+			<h1 style="color: green">hello</h1>	
 		</c:when>
-		<c:when test="">
-		
+		<c:when test='${param.c == "blue" }'>
+			<h1 style="color: blue">hello</h1>		
 		</c:when>
-		<c:when test="">
-		
+		<c:when test='${param.c == "green" }'>
+			<h1 style="color: green">hello</h1>
 		</c:when>
-		
+				
 		<c:otherwise>
-		
+			<h1 style="color: black">hello</h1>	
 		</c:otherwise>		
 	</c:choose>	
 	
-		<h1 style="color: green">hello</h1>	
-		<h1 style="color: blue">hello</h1>
-		<h1 style="color: black">hello</h1>
+
+		
+		
 </body>
 </html>
